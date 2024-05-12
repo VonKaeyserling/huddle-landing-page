@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 70%; }
+  .header__image {
+    flex: 1;
+    margin: auto; }
+    .header__image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; }
+  .header__content {
+    flex: 1;
+    padding: 5%;
+    margin: auto;
+    font-family: "Open Sans", sans-serif, sans-serif; }
+    .header__content h1 {
+      font-family: "Poppins", sans-serif, sans-serif;
+      color: white;
+      font-size: 3.5rem;
+      font-weight: 600;
+      margin-bottom: 1.4rem; }
+    .header__content p {
+      color: white;
+      font-size: 1.6rem;
+      margin-bottom: 1.4rem;
+      font-family: inherit; }
+  .header__button {
+    padding: 1.2rem 6rem;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    border-style: none;
+    margin-top: 1.2rem;
+    color: #674baf;
+    font-family: "Poppins", sans-serif, sans-serif;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); }
+
+.footer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: flex-end;
+  align-items: baseline; }
+  .footer__link {
+    font-size: 1.6rem;
+    color: white;
+    border: solid white 1px;
+    padding: 0.4rem 1rem;
+    border-radius: 100%;
+    text-decoration: none;
+    margin-left: 1.4rem; }
+    .footer__link:nth-child(2) {
+      padding: 0.4rem 0.7rem; }
+    .footer__link:nth-child(3) {
+      padding: 0.4rem 0.8rem; }
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #674baf;
+  background-image: url("../images/bg-desktop.svg");
+  background-size: cover;
+  height: 100vh; }
+
+.nav {
+  padding-block: 2rem;
+  margin: auto;
+  width: 90%; }
+  .nav__logo {
+    width: 20rem; }

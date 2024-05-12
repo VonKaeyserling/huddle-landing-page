@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 70%;
+
+  &__image {
+    flex: 1;
+    margin: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    flex: 1;
+    padding: 5%;
+    margin: auto;
+    font-family: $openSansFont, sans-serif;
+
+    h1 {
+      font-family: $poppinsFont, sans-serif;
+      color: white;
+      font-size: 3.5rem;
+      font-weight: 600;
+      margin-bottom: 1.4rem;
+    }
+
+    p {
+      color: white;
+      font-size: 1.6rem;
+      margin-bottom: 1.4rem;
+      font-family: inherit;
+    }
+  }
+
+  &__button {
+    padding: 1.2rem 6rem;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    border-style: none;
+    margin-top: 1.2rem;
+    color: $violet;
+    font-family: $poppinsFont, sans-serif;
+    background: white;
+
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+}
